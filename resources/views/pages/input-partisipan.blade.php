@@ -19,11 +19,11 @@
         </div>
         <div class="form-group">
             <label>NIK</label>
-            <input type="text" name="nik" value="" class="form-control">
+            <input type="text" name="nik" value="'31730" class="form-control">
         </div>
         <div class="form-group">
             <label>Nomor Kartu</label>
-            <input type="text" name="no_kartu" value="194690" class="form-control">
+            <input type="text" name="no_kartu" value="'194690" class="form-control">
         </div>
         <div class="form-group">
             <label>RW Berapa</label>
