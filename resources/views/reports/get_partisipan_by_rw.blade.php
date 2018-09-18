@@ -23,33 +23,17 @@
 						
 					</tr>
 					<tr>
-						<td style=min-width:50px>NO</td>
-						<td style=min-width:50px>NAMA</td>
-						<td style=min-width:50px>L/P</td>
-						<td style=min-width:50px>ALAMAT</td>
-						<td style=min-width:50px>NIK</td>
-						<td style=min-width:50px>NO. KARTU </td>
-						<td style=min-width:50px>TAHAP</td>
-						<td style=min-width:50px></td>
-						<td style=min-width:50px></td>
-						<td style=min-width:50px></td>
-						<td style=min-width:50px></td>
-						<td style=min-width:50px></td>
-						<td style=min-width:50px></td>
-						<td style=min-width:50px></td>
-						<td style=min-width:50px></td>
-						<td style=min-width:50px></td>
-						<td style=min-width:50px></td>
-						<td style=min-width:50px></td>
-						<td style=min-width:50px>KET</td>
+						<td rowspan="3" style=min-width:50px>NO</td>
+						<td rowspan="3" style=min-width:50px>NAMA</td>
+						<td rowspan="3" style=min-width:50px>L/P</td>
+						<td rowspan="3" style=min-width:50px>ALAMAT</td>
+						<td rowspan="3" style=min-width:50px>NIK</td>
+						<td rowspan="3" style=min-width:50px>NO. KARTU </td>
+						<td colspan="12" style=min-width:50px>TAHAP</td>
+			         	<td rowspan="4" style=min-width:50px>KET</td>
 					</tr>
 					<tr>
-						<td style=min-width:50px></td>
-						<td style=min-width:50px></td>
-						<td style=min-width:50px></td>
-						<td style=min-width:50px></td>
-						<td style=min-width:50px></td>
-						<td style=min-width:50px></td>
+						
 						<td style=min-width:50px>TGL/ BLN / THN</td>
 						<td style=min-width:50px>TGL/ BLN / THN</td>
 						<td style=min-width:50px>TGL/ BLN / THN</td>
@@ -62,9 +46,10 @@
 						<td style=min-width:50px>TGL/ BLN / THN</td>
 						<td style=min-width:50px>TGL/ BLN / THN</td>
 						<td style=min-width:50px>TGL/ BLN / THN</td>
-						<td style=min-width:50px></td>
+					
 					</tr>
 					<tr>
+						
 						<td style=min-width:50px></td>
 						<td style=min-width:50px></td>
 						<td style=min-width:50px></td>
@@ -77,13 +62,7 @@
 						<td style=min-width:50px></td>
 						<td style=min-width:50px></td>
 						<td style=min-width:50px></td>
-						<td style=min-width:50px></td>
-						<td style=min-width:50px></td>
-						<td style=min-width:50px></td>
-						<td style=min-width:50px></td>
-						<td style=min-width:50px></td>
-						<td style=min-width:50px></td>
-						<td style=min-width:50px></td>
+					
 					</tr>
 					<tr>
 						<td style=min-width:50px></td>
@@ -104,8 +83,9 @@
 						<td style=min-width:50px>10</td>
 						<td style=min-width:50px>11</td>
 						<td style=min-width:50px>12</td>
-						<td style=min-width:50px></td>
+						
                     </tr>
+                  
                     <?php $no=1; ?>
                     @foreach ($partisipan as $partisipan)
                     <tr>
@@ -131,6 +111,7 @@
                     </tr>
                     <?php $no++; ?>
                     @endforeach
+                   
 
 				</table>
 				<hr>
